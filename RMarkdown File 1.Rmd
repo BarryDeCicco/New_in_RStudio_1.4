@@ -75,5 +75,13 @@ In options, you can select which version of Python to use.
 This helps track blocks of parentheses by color.
 
 
+## Yet to come ----
+
+Things from the video 'Python on RStudio, Visual Markdown Editor - RStudio Latest Update Demo':
+(2021_01_21) https://www.youtube.com/watch?v=mUdwE5bo7NM
+
+
+
+
 
 
