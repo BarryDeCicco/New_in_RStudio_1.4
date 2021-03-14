@@ -1,0 +1,79 @@
+---
+title: "What's New in RStudio 1.4"
+author: "Barry DeCicco"
+date: "3/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preliminaries -----------------------------------------------------------
+
+## Sources on the Web ----
+
+#### From: <https://blog.rstudio.com/2020/12/02/rstudio-v1-4-preview-little-things/>
+
+#### <https://www.youtube.com/watch?v=SdMPh5uphO0>
+
+#### <https://www.youtube.com/watch?v=wvfI7yGZAHc>
+
+#### <https://www.youtube.com/watch?v=mUdwE5bo7NM> (Python and RSTudio)
+
+## Load Libraries ----
+
+```{r Libraries}
+library(tidyverse)
+library(magrittr)
+
+
+```
+
+## Grouping ----
+
+Grouping data is a very useful operation, but it isn't always obvious how data has been grouped. R Notebooks now show you information about grouping when displaying data:
+
+```{r gouping }
+
+mtcars %>% 
+  group_by(cyl, vs)
+
+```
+
+## Visual Editor ----
+
+Click the greyed out 'A' in the upper right-hand corner of the pane to switch to Visual Editor mode; click it again to switch it off.
+
+```{r gouping }
+
+mtcars %>% 
+  group_by(cyl, vs)
+
+```
+
+## Insert Citation ----
+
+In Visual Editor mode, you can insert citations,
+pulling them from external website, Zotero, etc.
+It will create/add to a bibliography when it does so.
+
+## Suport for Python ----
+
+You can now open a Python script as a file.
+It uses the reticulate package.
+
+If RStudio can't find Anaconda, it will download and 
+install Miniconda from Anaconda.com.
+
+You will have two Environment tabs (switch by a dropdown); one for R and one for Python.
+
+In options, you can select which version of Python to use.
+
+## Rainbow Parentheses ----
+
+This helps track blocks of parentheses by color.
+
+
+
+
