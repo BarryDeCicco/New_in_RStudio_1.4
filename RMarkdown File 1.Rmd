@@ -64,9 +64,9 @@ You can now open a Python script as a file.
 It uses the reticulate package.
 
 If RStudio can't find Anaconda, it will download and 
-install Miniconda from Anaconda.com.
+install **Miniconda** from Anaconda.com.
 
-You will have two Environment tabs (switch by a dropdown); one for R and one for Python.
+You will have two Environment tabs (switch by a drop-down); one for R and one for Python.
 
 In options, you can select which version of Python to use.
 
